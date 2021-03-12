@@ -23,7 +23,7 @@ $task->task = $request->task;
         return redirect('/dashboard'); 
         }
         else {
-            return redirect('/dashboard'); 
+            return redirect('/dashboard') ;
         }
 
         
